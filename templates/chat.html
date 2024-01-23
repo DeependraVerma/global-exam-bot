@@ -20,11 +20,11 @@
                         <div class="card-header msg_head">
                             <div class="d-flex bd-highlight">
                                 <div class="img_cont">
-                                    <img src="static/download.png" class="rounded-circle user_img">
+                                    <img src="static/download1.jpg" class="rounded-circle user_img">
                                     <span class="online_icon"></span>
                                 </div>
                                 <div class="user_info">
-                                    <span>Study-abroad-chatbot</span>
+                                    <span>Ramayan-chatbot</span>
                                     <p>Ask me anything!</p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                         type: "POST",
                         url: "/get",
                     }).done(function(data) {
-                        var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://www.prdistribution.com/spirit/uploads/pressreleases/2019/newsreleases/d83341deb75c4c4f6b113f27b1e42cd8-chatbot-florence-already-helps-thousands-of-patients-to-remember-their-medication.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + data + '<span class="msg_time">' + str_time + '</span></div></div>';
+                        var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://images.news9live.com/wp-content/uploads/2024/01/6-55.png?w=663" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + data + '<span class="msg_time">' + str_time + '</span></div></div>';
                         $("#messageFormeight").append($.parseHTML(botHtml));
                     });
                     event.preventDefault();
